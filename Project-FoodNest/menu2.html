@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>FOODTIME</title>
+    <link
+      rel="shortcut icon"
+      href="images/momo-icon.webp"
+      type="image/x-icon"
+    />
+
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="FOODTIME"
+      content="Author: Rishika Garg, Illustrator: Font Awesome and Flat Icon, Category: Food Application, Open Source: Yes"
+    />
+    <meta name="description" content="Food Ordering Website. The 'FOODTIME' has
+    been practiced to override the prevalent problems in manual systems. This
+    website is compatible to finalize and, in some cases, reduces the
+    difficulties faced by this existing system.>
+    <meta name="robots" content="all" />
+    <meta name="googlebot" content="all" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CDN FONTS  -->
+    <link href="https://fonts.cdnfonts.com/css/elinga" rel="stylesheet" />
+
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link href="https://copyfonts.com/fonts/attari-salees.html" />
+    <link rel="stylesheet" href="menu2.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <!-- CODE FOR NAVIGATION BAR -->
+        <ul class="px-0 mx-0">
+          <img
+            src="./images/navbar-logo.gif"
+            height="100px"
+            width="100px"
+            alt="navbar-logo"
+          />
+        </ul>
+        <a class="navbar-brand" href="menu2.html">FOODTIME</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-4" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item active">
+              <a class="nav-link px-3" href="#"
+                >Categories <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="login1.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div> 
+        <div id="shoppingclass" data-toggle="modal" data-target="#exampleModal">
+          <i class="fas fa-shopping-cart" id="cart"></i>
+          <span class="shoppingCartAfter" id="zero">0</span>
+        </div>
+      </div>
+    </nav>
+
+    <a id="scrollToTop" class="btn"><i class="fas fa-caret-up"></i></a>
+<div id="main">
+    <div class="container home-container">
+      <section id="homeSection" class="d-flex justify-content-center">
+        <div class="row homeRow">
+          <div class="col-lg-6 homeTxtCol">
+            <h1 class="homeHeading">
+              Where the Flavor <br />
+              <span data-text="INEBRIATES">INEBRIATES</span>
+              <br />
+              you
+            </h1>
+            <br />
+            <div class="homeBtnDiv">
+              <a href="#categorySection" class="btn homeBtn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-6 homeImgCol">
+            <img class="homeImg" src="./images/momoss.png" alt="momos" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <br />
+
+    <section id="menu-section">
+                <div class="menu-heading">
+                </div>
+                <div class="shop-items">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Lemak</span>
+                                        <img class="shop-item-image" src="Images/food1.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 400</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Ayam</span>
+                                        <img class="shop-item-image" src="Images/food2.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 500</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Tomyam</span>
+                                        <img class="shop-item-image" src="Images/food4.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 600</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Goreng USA</span>
+                                        <img class="shop-item-image" src="Images/food5.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 600</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Mandi</span>
+                                        <img class="shop-item-image" src="Images/food6.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 700</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Satay Ayam</span>
+                                        <img class="shop-item-image" src="Images/food7.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Kukus</span>
+                                        <img class="shop-item-image" src="Images/food8.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Nasi Gepuk</span>
+                                        <img class="shop-item-image" src="Images/food9.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 1200</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-heading">
+                </div>
+                <div class="shop-items">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Chicken Mandi</span>
+                                        <img class="shop-item-image" src="Images/A1.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Lamb Mandi</span>
+                                        <img class="shop-item-image" src="Images/A2.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 1200</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Beef Mandi</span>
+                                        <img class="shop-item-image" src="Images/A3.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 1200</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">ShawaRSa</span>
+                                        <img class="shop-item-image" src="Images/A4.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 600</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-heading">
+                </div>
+                <div class="shop-items">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Chicken Chop</span>
+                                        <img class="shop-item-image" src="Images/W1.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Lamb Gril</span>
+                                        <img class="shop-item-image" src="Images/W2.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 1200</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Fish And Chips</span>
+                                        <img class="shop-item-image" src="Images/W3.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">Burger</span>
+                                        <img class="shop-item-image" src="Images/W4.png">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">RS 600</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="container content-section">
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">RS 0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">CHECKOUT</button>
+                </section>
+
+                
+<script src="FoodMenu.js"></script>
